@@ -19,6 +19,7 @@ h3, h2, h1 {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   margin: 10px 10px 15px 10px;
+  position: static;
 }
 
 @keyframes images {
