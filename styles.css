@@ -6,7 +6,7 @@ html {
     font-family: "Garamond", "Georgia", serif;
     text-indent: 25px
 }
-h3 {
+h3, h2, h1 {
     font-family: "Garamond", "Georgia", serif;
 }
 .main-images {
@@ -17,10 +17,22 @@ h3 {
   border-color: #1abc9c;
   animation-name: images;
   animation-duration: 4s;
-  animation-iteration-count: infinite
+  animation-iteration-count: infinite;
+  margin: 10px 10px 15px 10px;
 }
 
 @keyframes images {
     from {border-color: #1abc9c;}
     to {border-color: darkcyan;}
+}
+
+.header {
+    padding: 3px;
+    text-align: center;
+    background: #1abc9c;
+    color: #1abc9c;
+    font-size: 1px;
+    animation-name: headers;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
 }
