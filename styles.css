@@ -2,6 +2,11 @@ html {
     background-image: linear-gradient(rgb(193, 238, 229), rgb(75, 234, 202));
   }
 
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+
   p {
     font-family: "Trebuchet MS", "Tahoma", sans-serif;
     text-indent: 25px;
@@ -80,4 +85,14 @@ a:hover {
 
 a:active {
   color: #000;
+}
+
+#bible {
+  float: right;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 5px;
 }
