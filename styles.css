@@ -4,7 +4,8 @@ html {
 
   p {
     font-family: "Garamond", "Georgia", serif;
-    text-indent: 25px
+    text-indent: 25px;
+    line-height: 25px;
 }
 h3, h2, h1 {
     font-family: "Garamond", "Georgia", serif;
@@ -36,4 +37,8 @@ h3, h2, h1 {
     animation-name: headers;
     animation-duration: 4s;
     animation-iteration-count: infinite
+}
+
+a:hover {
+  color: #9d00ff;
 }
