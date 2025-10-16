@@ -19,7 +19,7 @@ h3, h2, h1 {
   animation-name: images;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  margin: 10px 10px 15px 10px;
+  margin: 10px 10px 10px 10px;
   position: static;
 }
 
