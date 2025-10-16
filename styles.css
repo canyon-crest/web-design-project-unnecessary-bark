@@ -6,6 +6,8 @@ html {
     font-family: "Trebuchet MS", "Tahoma", sans-serif;
     text-indent: 25px;
     line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 h3, h2, h1 {
     font-family: "Trebuchet MS", "Tahoma", sans-serif;
@@ -22,7 +24,7 @@ h1 {
   margin: 20px auto;
 }
 
-h2{
+h2 {
   text-align: center;
   font-size: 1.3em;
 }
@@ -32,7 +34,7 @@ h3 {
   padding-left: 15px;
   border-radius: 20px;
 }
-.main-images {
+img {
   float: left;
   border-radius: 25px;
   border-style: solid;
@@ -62,6 +64,20 @@ h3 {
     clear: both;
 }
 
+a:link {
+  color: rgb(0, 136, 136);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 107, 107);
+}
+
 a:hover {
-  color: #9d00ff;
+  color: rgb(0, 70, 70);
+  text-decoration: underline;
+}
+
+a:active {
+  color: #000;
 }
