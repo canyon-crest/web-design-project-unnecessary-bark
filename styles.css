@@ -3,12 +3,34 @@ html {
   }
 
   p {
-    font-family: "Garamond", "Georgia", serif;
+    font-family: "Trebuchet MS", "Tahoma", sans-serif;
     text-indent: 25px;
     line-height: 25px;
 }
 h3, h2, h1 {
-    font-family: "Garamond", "Georgia", serif;
+    font-family: "Trebuchet MS", "Tahoma", sans-serif;
+}
+
+h1 {
+  background-color: #1abc9c;
+  padding: 8px;
+  border-style: groove;
+  border-color: darkcyan;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+h3 { 
+  border-left: 20px double #000;
+  padding-left: 15px;
+  border-radius: 20px;
 }
 .main-images {
   float: left;
