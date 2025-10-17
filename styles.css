@@ -3,7 +3,7 @@ html {
   }
 
 #container {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -95,4 +95,59 @@ a:active {
   background-color: yellow;
   font-weight: bold;
   border-radius: 5px;
+}
+
+#sidebar {
+  background-color: #fff;
+  width: 200px;
+  line-height: 2.25em;
+  border: 2px solid black;
+  float: right;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+#sidebar h3{
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: none;
+  background-color: darkcyan;
+  border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
+  #container{
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  #container{
+    width: 100%
+  }
+  body, p, #container {
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  p {
+    padding: 20px;
+  }
+  #sidebar {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width:768px) {
+  #sidebar {
+    display: none;
+  }
+  img {
+    width: 175px;
+  }
 }
