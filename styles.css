@@ -51,23 +51,28 @@ img {
   margin: 10px 10px 10px 10px;
   position: static;
 }
-
-@keyframes images {
-    from {border-color: #1abc9c;}
-    to {border-color: darkcyan;}
-}
-
 .header {
     padding: 3px;
     text-align: center;
     background: #1abc9c;
     color: #1abc9c;
     font-size: 1px;
-    animation-name: images;
+    animation-name: headings;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     clear: both;
 }
+@keyframes images {
+    from {border-color: #1abc9c;}
+    to {border-color: darkcyan;}
+}
+
+@keyframes headings {
+    from {background-color: #1abc9c;}
+    to {background-color: darkcyan;}
+}
+
+
 
 a:link {
   color: rgb(0, 136, 136);
