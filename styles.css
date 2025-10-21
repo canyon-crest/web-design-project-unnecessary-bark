@@ -169,14 +169,6 @@ a:active {
 }
 
 @media (max-width:768px) {
-  #container{
-    width: 100%
-  }
-  body, p, #container {
-    margin: 0;
-    border: none;
-    padding: 0;
-  }
   #sidebar {
     display: none;
   }
